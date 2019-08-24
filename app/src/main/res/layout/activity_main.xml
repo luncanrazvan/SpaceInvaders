@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bestspaceinvader"
+        android:id="@+id/imageView"
+        android:paddingRight="30dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bestspaceinvader"
+        android:id="@+id/imageView1"
+        android:layout_toRightOf="@+id/imageView"
+        android:paddingRight="30dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/bestspaceinvader"
+        android:layout_toRightOf="@id/imageView1"
+        android:paddingRight="30dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:paddingRight="30dp"
+        android:src="@drawable/bestspaceinvader"
+        android:layout_below="@id/imageView"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:paddingRight="30dp"
+        android:src="@drawable/bestspaceinvader"
+        android:layout_toRightOf="@id/imageView3"
+        android:layout_below="@id/imageView1"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView5"
+        android:paddingRight="30dp"
+        android:layout_toRightOf="@id/imageView4"
+        android:layout_below="@id/imageView2"
+        android:src="@drawable/bestspaceinvader"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView6"
+        android:paddingRight="30dp"
+        android:src="@drawable/bestspaceinvader"
+        android:layout_below="@id/imageView3"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView7"
+        android:paddingRight="30dp"
+        android:layout_toRightOf="@id/imageView6"
+        android:src="@drawable/bestspaceinvader"
+        android:layout_below="@id/imageView4"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView8"
+        android:paddingRight="30dp"
+        android:layout_toRightOf="@id/imageView7"
+        android:src="@drawable/bestspaceinvader"
+        android:layout_below="@id/imageView5"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btnLeft"
+        android:text="left"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btnLeft"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btnRight"
+        android:text="Right"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btnLeft"
+        android:layout_marginLeft="230dp"
+        android:text="Fire"
+        android:id="@+id/btnFire"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/spaceship"
+        android:layout_above="@id/btnLeft"
+        android:id="@+id/spaceship"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/newbulletimage"
+        android:id="@+id/bullet"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bulletMonster0"
+        android:src="@drawable/bulletmonster"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bulletMonster1"
+        android:src="@drawable/bulletmonster"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bulletMonster2"
+        android:src="@drawable/bulletmonster"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bulletMonster3"
+        android:src="@drawable/bulletmonster"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bulletMonster4"
+        android:src="@drawable/bulletmonster"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bulletMonster5"
+        android:src="@drawable/bulletmonster"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bulletMonster6"
+        android:src="@drawable/bulletmonster"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bulletMonster7"
+        android:src="@drawable/bulletmonster"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bulletMonster8"
+        android:src="@drawable/bulletmonster"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:id="@+id/gameStatus"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>
